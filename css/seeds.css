@@ -49,7 +49,7 @@ table {
 
 /*=======================*/
 .section-header {
-    height:100px;
+    height:250px;
     background-color: #8B2234;
 }
 
@@ -59,7 +59,7 @@ table {
 }
 
 .section-pic {
-    height:100px;
+    height:450px;
     background-color: #132149;
 }
 
@@ -69,12 +69,12 @@ table {
 }
 
 .section-about {
-    height:100px;
+    min-height: 400px;
     background-color: #00BABA;
 }
 
 .section-news {
-    height:100px;
+    height:300px;
     background-color: #00BABA;
 }
 
@@ -84,6 +84,6 @@ table {
 }
 
 .section-footer {
-    height:100px;
+    height:200px;
     background-color: #132149;
 }
