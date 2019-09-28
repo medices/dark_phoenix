@@ -84,6 +84,7 @@ table {
 .section-pic {
     height: 250px;
     width: 100%;
+    background-image: url() ;
     background-color: white;
     position: relative;
 }
@@ -126,4 +127,9 @@ table {
     width:40%;
     min-width:240px;
 
+}
+
+.navigation{
+    width:33.3333%;
+    display:inline-block;
 }
