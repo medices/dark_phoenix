@@ -82,9 +82,10 @@ table {
 }
 
 .section-pic {
-    height: 50px;
+    height: 250px;
     width: 100%;
     background-color: white;
+    position: relative;
 }
 
 .section-choice {
@@ -117,5 +118,12 @@ table {
 }
 
 .background-title{
+    height:50px;
+    background-color: pink;
+    position:absolute;
+    bottom:50px;
+    left:0;
+    width:40%;
+    min-width:240px;
 
 }
