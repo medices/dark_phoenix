@@ -168,11 +168,23 @@ table {
 }
 
 .social {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    background-color: forestgreen;
 }
 
 .contact {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    background-color: darkseagreen;
 }
 
 
 .link {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    background-color: lightseagreen; 
 }
