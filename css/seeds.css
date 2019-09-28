@@ -12,85 +12,89 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*=======================*/
 .section-header {
-    height:250px;
+    height: 250px;
     background-color: #8B2234;
-    position:relative;
-
+    position: relative;
 }
 
 .title-container {
-    height:50px;
+    height: 50px;
     background-color: lightgrey;
-    width:34%;
+    width: 34%;
     min-width: 240px;
-    float: left; 
+    float: left;
 }
 
 .contribute-container {
-    height:50px;
+    height: 50px;
     background-color: yellow;
     width: 33%;
     min-width: 240px;
-    float:right;
+    float: right;
 }
 
 
 .section-menu {
-    height:50px;
+    height: 50px;
     background-color: lightblue;
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .section-pic {
     height: 250px;
     width: 100%;
-    background-image: url() ;
+    background-image: url();
     background-color: white;
     position: relative;
 }
 
 .section-choice {
-    height:100px;
+    height: 100px;
     background-color: #92BBD6;
 }
 
@@ -100,36 +104,34 @@ table {
 }
 
 .section-news {
-    height:300px;
+    height: 300px;
     background-color: white;
 }
 
 .section-support {
-    height:100px;
+    height: 100px;
     background-color: #92BBD6;
 }
 
 .section-footer {
-    height:200px;
+    height: 200px;
     background-color: #8B2234;
 }
 
-.image{
-
+.image {
 }
 
-.background-title{
-    height:50px;
+.background-title {
+    height: 50px;
     background-color: pink;
-    position:absolute;
-    bottom:50px;
-    left:0;
-    width:40%;
-    min-width:240px;
-
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 40%;
+    min-width: 240px;
 }
 
-.navigation{
-    width:33.3333%;
-    display:inline-block;
+.navigation {
+    width: 33.3333%;
+    display: inline-block;
 }
