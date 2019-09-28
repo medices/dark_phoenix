@@ -49,25 +49,41 @@ table {
 
 /*=======================*/
 .section-header {
+    height:100px;
+    background-color: #8B2234;
 }
 
 .section-menu {
+    height:100px;
+    background-color: #92BBD6;
 }
 
 .section-pic {
+    height:100px;
+    background-color: #132149;
 }
 
 .section-choice {
+    height:100px;
+    background-color: #92BBD6;
 }
 
 .section-about {
+    height:100px;
+    background-color: #00BABA;
 }
 
 .section-news {
+    height:100px;
+    background-color: #00BABA;
 }
 
 .section-support {
+    height:100px;
+    background-color: #99D5C9;
 }
 
 .section-footer {
+    height:100px;
+    background-color: #132149;
 }
