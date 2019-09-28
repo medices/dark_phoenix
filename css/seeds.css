@@ -53,15 +53,22 @@ table {
     background-color: #8B2234;
 }
 
-.container1{
-    height:150px;
-    width: 300px;
-    color: lightgrey;
+.title-container {
+    height:50px;
+    background-color: lightgrey;
+    width:34%; 
 }
 
+.contribute-container {
+    height:50px;
+    background-color: yellow;
+    width: 33%;
+}
+
+
 .section-menu {
-    height:100px;
-    background-color: lightgray;
+    height:50px;
+    background-color: lightblue;
 }
 
 .section-pic {
