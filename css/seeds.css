@@ -131,7 +131,21 @@ table {
     min-width: 240px;
 }
 
-.navigation {
+.navigation1 {
     width: 33.3333%;
     display: inline-block;
+    background-color: aqua;
+}
+
+.navigation2 {
+    width: 33.3333%;
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+
+.navigation3 {
+    width: 33.3333%;
+    display: inline-block;
+    background-color: azure;
 }
