@@ -69,7 +69,7 @@ table {
 
 .contribute-container {
     height: 50px;
-    background-color: yellow;
+    background-color: rosybrown;
     width: 33%;
     min-width: 240px;
     float: right;
@@ -186,5 +186,12 @@ table {
     width: 25%;
     height: 100%;
     display: inline-block;
-    background-color: lightseagreen; 
+    background-color: lightseagreen;
+}
+
+@media only screen and (max-device-width : 500px) {
+    /* STYLES GO HERE */
+    .title-container, .contribute-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
+        width: 100%;
+    }
 }
