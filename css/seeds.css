@@ -88,7 +88,7 @@ table {
 .section-pic {
     height: 250px;
     width: 100%;
-    background-image: url();
+    background-image: url("../images/seeds1.jpg");
     background-color: white;
     position: relative;
 }
@@ -99,12 +99,12 @@ table {
 }
 
 .section-about {
-    min-height: 400px;
-    background-color: white;
+    min-height: 200px;
+    background-color: dimgrey;
 }
 
 .section-news {
-    height: 300px;
+    height: 150px;
     background-color: white;
 }
 
