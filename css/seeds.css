@@ -89,7 +89,8 @@ section {
 
 
 .section-menu {
-    height: 100px;
+    display: flex;
+    height: 80px;
     background-color: #797b7d;
     position: absolute;
     bottom: 0;
@@ -199,12 +200,20 @@ section {
 
 ul {
     list-style-type: none;
+    margin: 0 auto;
 }
 
 li {
     float: left;
     display: block;
     text-align: center;
+    padding: 32px;
+    color: white;
+    cursor: pointer;
+}
+li:hover {
+    background-color: white;
+    color: #000;
 }
 
 
