@@ -77,6 +77,7 @@ section {
     width: 40%;
     min-width: 240px;
     float: left;
+    padding: 50px 0;
 }
 
 .search-container {
@@ -85,6 +86,7 @@ section {
     width: 30%;
     min-width: 240px;
     float: right;
+    padding: 50px 0;
 }
 
 
@@ -135,25 +137,28 @@ section {
 }
 
 .background-title {
-    height: 100px;
+    height: 50px;
     background-color: #a0a1a3;
     position: absolute;
-    bottom: 50px;
     left: 0;
+    bottom: 25px;
     width: 40%;
     min-width: 240px;
+    padding: 25px 0;
 }
 
 .navigation1 {
     width: 33.33%;
     height: 200px;
     background-color: #98999b;
+    padding: 50px 0;
 }
 
 .navigation2 {
     width: 33.33%;
     height: 200px;
     background-color: #cacacc;
+    padding: 50px 0;
 }
 
 
@@ -161,30 +166,36 @@ section {
     width: 33.32%;
     height: 200px;
     background-color: #a5a8ae;
+    padding: 50px 0;
 }
 
 .support {
     width: 60%;
     height: 100px;
     background-color: #727374;
+    padding: 50px 0;
 }
 
 .contribute {
     width: 40%;
     height: 100px;
     background-color: #797b7d;
+    padding: 50px 0;
 }
 
 .social {
     width: 50%;
     height: 100%;
     background-color: #626365;
+    padding: 50px 0;
 }
 
 .contact {
     width: 25%;
     height: 100%;
     background-color: #babec7;
+    padding: 50px 0;
+
 }
 
 
@@ -193,6 +204,7 @@ section {
     height: 100%;
     display: inline-block;
     background-color: #cbd0da;
+    padding: 50px 0;
 }
 
 
