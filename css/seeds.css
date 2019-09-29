@@ -153,7 +153,6 @@ section {
 .navigation2 {
     width: 33.33%;
     height: 200px;
-
     background-color: #cacacc;
 }
 
@@ -206,15 +205,19 @@ ul {
 li {
     float: left;
     display: block;
+    width: 100px;
+    height: 100px;
     text-align: center;
-    padding: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: white;
     cursor: pointer;
 }
-li:hover {
-    background-color: white;
-    color: #000;
-}
+
+    li:hover {
+        background-color: white;
+        color: #000;
+    }
 
 
 @media only screen and (max-width : 640px) {
@@ -227,7 +230,7 @@ li:hover {
         display: inherit;
     }
 
-    .title-container , .search-container {
+    .title-container, .search-container {
         float: none;
     }
 
