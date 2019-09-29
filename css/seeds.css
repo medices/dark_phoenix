@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -53,8 +54,11 @@ table {
 }
 
 /*=======================*/
+
 body {
     box-sizing: border-box;
+    text-align: center;
+    font-family: 'Open Sans',serif;
 }
 
 section {
@@ -73,14 +77,6 @@ section {
     width: 40%;
     min-width: 240px;
     float: left;
-}
-
-.contribute-container {
-    height: 100px;
-    background-color: #a8abae;
-    width: 30%;
-    min-width: 240px;
-    float: right;
 }
 
 .search-container {
@@ -200,6 +196,7 @@ section {
 }
 
 
+
 ul {
     list-style-type: none;
 }
@@ -213,7 +210,7 @@ li {
 
 @media only screen and (max-width : 640px) {
     /* STYLES GO HERE */
-    .title-container, .contribute-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
+    .title-container, .search-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
         width: 100%;
     }
 
@@ -221,7 +218,7 @@ li {
         display: inherit;
     }
 
-    .title-container , .contribute-container {
+    .title-container , .search-container {
         float: none;
     }
 
