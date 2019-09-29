@@ -62,7 +62,7 @@ table {
 .title-container {
     height: 50px;
     background-color: lightgrey;
-    width: 34%;
+    width: 30%;
     min-width: 240px;
     float: left;
 }
@@ -70,7 +70,15 @@ table {
 .contribute-container {
     height: 50px;
     background-color: rosybrown;
-    width: 33%;
+    width: 30%;
+    min-width: 240px;
+    float: right;
+}
+
+.search-container{
+    height: 50px;
+    background-color: lightgrey;
+    width: 30%;
     min-width: 240px;
     float: right;
 }
@@ -150,7 +158,7 @@ table {
     width: 33%;
     height: 100%;
     display: inline-block;
-    background-color: azure;
+    background-color: turquoise;
 }
 
 .support {
