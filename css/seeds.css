@@ -67,13 +67,13 @@ section {
 
 .section-header {
     min-height: 200px;
-    background-color: #8d99a5;
+    background-color: #c9341c;
     position: relative;
 }
 
 .title-container {
     height: 100px;
-    background-color: #8c9197;
+    background-color: #c9341c;
     width: 40%;
     min-width: 240px;
     float: left;
@@ -82,7 +82,7 @@ section {
 
 .search-container {
     height: 100px;
-    background-color: #b2b9c0;
+    background-color: #c9341c;
     width: 30%;
     min-width: 240px;
     float: right;
@@ -93,7 +93,7 @@ section {
 .section-menu {
     display: flex;
     height: 80px;
-    background-color: #797b7d;
+    background-color: #c9341c;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -116,13 +116,13 @@ section {
 
 .section-info {
     min-height: 400px;
-    background-color: dimgrey;
+    background-color: #ffffff;
     padding: 75px 0;
 }
 
 .section-news {
     height: 300px;
-    background-color: #d9dbe0;
+    background-color: #dccaa4;
     padding: 75px 0;
 }
 
@@ -156,14 +156,14 @@ section {
 .navigation1 {
     width: 33.33%;
     height: 100px;
-    background-color: #98999b;
+    background-color: #283B1F;
     padding: 50px 0;
 }
 
 .navigation2 {
     width: 33.33%;
     height: 100px;
-    background-color: #cacacc;
+    background-color: #B1A26B;
     padding: 50px 0;
 }
 
@@ -171,35 +171,35 @@ section {
 .navigation3 {
     width: 33.32%;
     height: 100px;
-    background-color: #a5a8ae;
+    background-color: #4E3E0B;
     padding: 50px 0;
 }
 
 .support {
     width: 60%;
     height: 100px;
-    background-color: #727374;
+    background-color: #c9341c;
     padding: 50px 0;
 }
 
 .contribute {
     width: 40%;
     height: 100px;
-    background-color: #797b7d;
+    background-color: #283B1F;
     padding: 50px 0;
 }
 
 .social {
     width: 50%;
     height: 100%;
-    background-color: #626365;
+    background-color: #4E3E0B;
     padding: 50px 0;
 }
 
 .contact {
     width: 25%;
     height: 100%;
-    background-color: #babec7;
+    background-color: #B1A26B;
     padding: 50px 0;
 }
 
@@ -208,7 +208,7 @@ section {
     width: 25%;
     height: 100%;
     display: inline-block;
-    background-color: #cbd0da;
+    background-color: #dccaa4;
     padding: 50px 0;
 }
 
