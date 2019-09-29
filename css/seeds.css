@@ -53,8 +53,16 @@ table {
 }
 
 /*=======================*/
+body {
+    box-sizing: border-box;
+}
+
+section {
+    white-space: nowrap;
+}
+
 .section-header {
-    height: 200px;
+    min-height: 200px;
     background-color: #8d99a5;
     position: relative;
 }
@@ -104,6 +112,7 @@ table {
 .section-choice {
     height: 200px;
     background-color: #5b5c5e;
+    display: flex;
 }
 
 .section-info {
@@ -117,16 +126,15 @@ table {
 }
 
 .section-support {
-    height: 100px;
+    min-height: 100px;
     background-color: #a5a6a9;
+    display: flex;
 }
 
 .section-footer {
     height: 200px;
     background-color: #969698;
-}
-
-.image {
+    display: flex;
 }
 
 .background-title {
@@ -140,52 +148,46 @@ table {
 }
 
 .navigation1 {
-    width: 33%;
+    width: 33.33%;
     height: 200px;
-    display: inline-block;
     background-color: #98999b;
 }
 
 .navigation2 {
-    width: 33%;
+    width: 33.33%;
     height: 200px;
-    display: inline-block;
+
     background-color: #cacacc;
 }
 
 
 .navigation3 {
-    width: 33%;
+    width: 33.32%;
     height: 200px;
-    display: inline-block;
     background-color: #a5a8ae;
 }
 
 .support {
     width: 60%;
-    height: 100%;
-    display: inline-block;
+    height: 100px;
     background-color: #727374;
 }
 
 .contribute {
-    width: 39%;
-    height: 100%;
-    display: inline-block;
+    width: 40%;
+    height: 100px;
     background-color: #797b7d;
 }
 
 .social {
-    width: 49%;
+    width: 50%;
     height: 100%;
-    display: inline-block;
     background-color: #626365;
 }
 
 .contact {
     width: 25%;
     height: 100%;
-    display: inline-block;
     background-color: #babec7;
 }
 
@@ -209,9 +211,21 @@ li {
 }
 
 
-@media only screen and (max-device-width : 500px) {
+@media only screen and (max-width : 640px) {
     /* STYLES GO HERE */
     .title-container, .contribute-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
         width: 100%;
+    }
+
+    .section-choice, .section-support, .section-footer {
+        display: inherit;
+    }
+
+    .title-container , .contribute-container {
+        float: none;
+    }
+
+    .section-menu {
+        position: inherit;
     }
 }
