@@ -98,6 +98,7 @@ section {
     bottom: 0;
     left: 0;
     width: 100%;
+    font-weight: bolder;
 }
 
 .section-pic {
@@ -149,8 +150,6 @@ section {
     padding: 25px 0;
     opacity: 0.8;
     color: #fff;
-    font-size: x-large;
-    font-weight: bolder;
 }
 
 .navigation1 {
@@ -233,6 +232,15 @@ li {
         background-color: white;
         color: #000;
     }
+
+.background-title, .section-info, .section-news, .title-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.background-title, .title-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact {
+    color: #ffffff;
+}
 
 
 @media only screen and (max-width : 640px) {
