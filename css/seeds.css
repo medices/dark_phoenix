@@ -205,11 +205,9 @@ ul {
 li {
     float: left;
     display: block;
-    width: 100px;
     height: 100px;
+    padding: 32px;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
     color: white;
     cursor: pointer;
 }
