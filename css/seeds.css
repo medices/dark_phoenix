@@ -242,6 +242,10 @@ li {
     color: #ffffff;
 }
 
+.filter{
+    filter: invert(1);
+}
+
 
 @media only screen and (max-width : 640px) {
     /* STYLES GO HERE */
