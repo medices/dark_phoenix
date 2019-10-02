@@ -246,9 +246,6 @@ li {
     filter: invert(1);
 }
 
-.logo {
-    background-color: #c9341c;
-}
 
 
 @media only screen and (max-width : 640px) {
