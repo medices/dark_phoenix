@@ -246,6 +246,10 @@ li {
     filter: invert(1);
 }
 
+.title-image {
+    margin-bottom: -20px; /* Align vertically in center */
+    clip-path: circle(40.0% at 49% 50%); /* https://bennettfeely.com/clippy/ */
+}
 
 
 @media only screen and (max-width : 640px) {
