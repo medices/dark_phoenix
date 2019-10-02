@@ -242,8 +242,12 @@ li {
     color: #ffffff;
 }
 
-.filter{
+.filter {
     filter: invert(1);
+}
+
+.logo {
+    background-color: #c9341c;
 }
 
 
