@@ -126,7 +126,7 @@ section {
 }
 
 .section-news {
-    height: 540px;
+    height: 460px;
     background-color: #dccaa4;
     padding: 75px 0;
     position: relative;
@@ -283,6 +283,8 @@ li {
     }
 }
 
+
+
 .field{
     background: url(https://s2.wp.com/wp-content/themes/pub/twentyeleven/images/search.png) no-repeat 5px 6px;
     border-radius: 2px;
@@ -354,26 +356,9 @@ a {
 
 }
 
-.imp{
-    margin: 0 auto;
-    display: block;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+@media only screen and (min-width : 800px){
+    .field{
+        width: 70px;
     }
-
-.through{
-    display: block;
-    padding: 50px;
-    font-size: 20px;
-    font-style: inherit;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    white-space: normal;
-    width:80%;
-    line-height: 200%;
 
 }
