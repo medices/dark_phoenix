@@ -197,14 +197,16 @@ section {
 
 .social {
     width: 50%;
-    height: 100%;
+    height: 185px;
     background-color: #4E3E0B;
+    display: inline-block;
     padding: 50px 0;
 }
 
 .contact {
     width: 25%;
-    height: 100%;
+    height: 185px;
+    display: inline-block;
     background-color: #B1A26B;
     padding: 50px 0;
 }
@@ -212,7 +214,7 @@ section {
 
 .link {
     width: 25%;
-    height: 100%;
+    height: 185px;
     display: inline-block;
     background-color: #dccaa4;
     padding: 50px 0;
