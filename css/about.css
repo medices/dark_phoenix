@@ -165,18 +165,17 @@ section {
 }
 
 .section-info {
-    height: 600px;
+    height: 800px;
     background-color: #dccaa4;
     padding: 75px 0;
     position: relative;
-    
+        
 }
 
 .owners {
     float: right;
     padding: 10px;
-    
-}
+    }
 
 .support {
     width: 60%;
@@ -330,7 +329,7 @@ input, textarea {
 
 
 
-.what{
+.what {
     display: block;
     padding: 50px;
     font-size: 20px;
@@ -340,8 +339,10 @@ input, textarea {
     left: 50%;
     transform: translate(-50%,-50%);
     white-space: normal;
-    width:80%;
+    width: 80%;
     line-height: 200%;
+    
+    
     }
 
 
@@ -352,7 +353,9 @@ a {
 
 .do {
     margin: 0 auto;
+    
     }
+
 .line{
     width: 50%; 
     outline-width: 1px; 
