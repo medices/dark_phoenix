@@ -115,22 +115,6 @@ section {
     display: flex;
 }
 
-.section-info {
-    min-height: 440px;
-    background-color: #ffffff;
-    padding: 75px 0;
-    position: relative;
-    
-        
-}
-
-.section-news {
-    height: 460px;
-    background-color: #dccaa4;
-    padding: 75px 0;
-    position: relative;
-    
-}
 
 .section-support {
     min-height: 100px;
@@ -180,12 +164,28 @@ section {
     padding: 50px 0;
 }
 
+.section-info {
+    height: 600px;
+    background-color: #dccaa4;
+    padding: 75px 0;
+    position: relative;
+    
+}
+
+.owners {
+    float: right;
+    padding: 10px;
+    
+}
+
 .support {
     width: 60%;
     height: 100px;
     background-color: #c9341c;
     padding: 50px 0;
 }
+
+
 
 .contribute {
     width: 40%;
@@ -326,10 +326,12 @@ input, textarea {
     font-size: 20px;
     font-style: inherit;
     color: #4E3E0B;
-    } 
+    }
+
+
 
 .what{
-    display: inline-block;
+    display: block;
     padding: 50px;
     font-size: 20px;
     font-style: inherit;
@@ -341,6 +343,7 @@ input, textarea {
     width:80%;
     line-height: 200%;
     }
+
 
 a {
     text-decoration: none;
@@ -357,7 +360,7 @@ a {
 
 }
 
-@media only screen and (min-width : 1006px){
+@media only screen and (min-width : 997px){
     .field{
         width: 70px;
     }
