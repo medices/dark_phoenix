@@ -102,9 +102,9 @@ section {
 }
 
 .section-pic {
-    height: 250px;
+    height: 450px;
     width: 100%;
-    background-image: url("../images/seeds13.jpg");
+    background-image: url("../images/edu.jpg");
     background-color: white;
     position: relative;
 }
@@ -165,7 +165,7 @@ section {
 }
 
 .section-info {
-    height: 800px;
+    height: 880px;
     background-color: #dccaa4;
     padding: 75px 0;
     position: relative;
