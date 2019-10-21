@@ -123,9 +123,10 @@ section {
 }
 
 .section-footer {
-    height: 200px;
+    min-height: 200px;
     background-color: #969698;
     display: flex;
+    white-space: inherit;
 }
 
 .background-title {
@@ -363,9 +364,16 @@ a {
 
 }
 
-@media only screen and (min-width : 997px){
+@media only screen and (min-width : 800px){
     .field{
         width: 70px;
+    }
+
+}
+
+@media only screen and (min-width : 620px){
+    .section-info {
+        min-height: 1150px;
     }
 
 }

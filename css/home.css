@@ -126,7 +126,7 @@ section {
 }
 
 .section-news {
-    height: 460px;
+    min-height: 460px;
     background-color: #dccaa4;
     padding: 75px 0;
     position: relative;
@@ -140,9 +140,10 @@ section {
 }
 
 .section-footer {
-    height: 200px;
+    min-height: 200px;
     background-color: #969698;
     display: flex;
+    white-space: inherit;
 }
 
 .background-title {
@@ -358,9 +359,22 @@ a {
 
 }
 
-@media only screen and (min-width : 800px){
-    .field{
+@media only screen and (min-width : 800px) {
+    .field {
         width: 70px;
+    }
+}
+
+@media only screen and (min-width : 620px){
+    .section-info {
+        min-height: 620px;
+    }
+
+}
+
+@media only screen and (min-width : 620px){
+    .section-news {
+        min-height: 750px;
     }
 
 }

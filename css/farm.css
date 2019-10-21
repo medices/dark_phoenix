@@ -123,9 +123,10 @@ section {
 }
 
 .section-footer {
-    height: 200px;
+    min-height: 200px;
     background-color: #969698;
     display: flex;
+    white-space: inherit;
 }
 
 .background-title {
@@ -142,30 +143,10 @@ section {
     font-style: oblique;
 }
 
-.navigation1 {
-    width: 33.33%;
-    height: 100px;
-    background-color: #283B1F;
-    padding: 50px 0;
-}
 
-.navigation2 {
-    width: 33.33%;
-    height: 100px;
-    background-color: #B1A26B;
-    padding: 50px 0;
-}
-
-
-.navigation3 {
-    width: 33.32%;
-    height: 100px;
-    background-color: #4E3E0B;
-    padding: 50px 0;
-}
 
 .section-info {
-    height: 880px;
+    min-height: 880px;
     background-color: #dccaa4;
     padding: 75px 0;
     position: relative;
@@ -343,6 +324,7 @@ input, textarea {
     line-height: 200%;
     
     
+    
     }
 
 
@@ -363,9 +345,19 @@ a {
 
 }
 
-@media only screen and (min-width : 997px){
-    .field{
+
+
+@media only screen and (min-width : 800px) {
+    .field {
         width: 70px;
+    }
+}
+
+
+@media only screen and (min-width : 620px){
+    .section-info {
+        min-height: 1200px;
     }
 
 }
+
