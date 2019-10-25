@@ -105,7 +105,7 @@ section {
 .section-pic {
     height: 450px;
     width: 100%;
-    background-image: url("../images/farm8.jpg");
+    background-image: url("../images/public1.jpg");
     background-color: white;
     position: relative;
 }
@@ -127,22 +127,10 @@ section {
     height: 20%;
     }
 
-.what{
-    display: block;
-    padding: 50px;
-    font-size: 20px;
-    font-style: inherit;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    white-space: normal;
-    width:80%;
-    line-height: 200%;
-    }
+
 
 .par{
-    min-height: 200px;
+    min-height: 50px;
 }
 
 .section-news {
@@ -243,6 +231,14 @@ li {
         color: #4E3E0B;
     }
 
+a hover {
+    background-color: white;
+        color: #dccaa4;;
+
+}
+
+
+
 .background-title, .section-info, .section-news, .title-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
     font-size: x-large;
     font-weight: bolder;
@@ -268,6 +264,7 @@ li {
         width: 100%;
     }
 
+    
     .section-choice, .section-support, .section-footer {
         display: inherit;
     }
@@ -359,6 +356,10 @@ a {
     outline-width: 1px; 
     background-color: #4E3E0B;
 
+}
+
+.public {
+    padding: 10px;
 }
 
 
