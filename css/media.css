@@ -258,7 +258,7 @@ a hover {
 }
 
 
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 950px) {
     /* STYLES GO HERE */
     .title-container, .search-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
         width: 100%;
