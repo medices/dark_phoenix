@@ -1,0 +1,393 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*=======================*/
+body {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Open Sans',serif;
+}
+
+section {
+    white-space: nowrap;
+}
+
+.section-header {
+    min-height: 200px;
+    background-color: #c9341c;
+    position: relative;
+}
+
+.title-container {
+    height: 100px;
+    background-color: #c9341c;
+    width: 40%;
+    min-width: 240px;
+    float: left;
+    padding: 50px 0;
+    font-weight: bold;
+}
+
+.search-container {
+    height: 100px;
+    background-color: #c9341c;
+    width: 30%;
+    min-width: 240px;
+    float: right;
+    padding: 50px 0;
+}
+
+
+.section-menu {
+    display: flex;
+    height: 80px;
+    background-color: #c9341c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.section-pic {
+    height: 450px;
+    width: 100%;
+    background-image: url("../images/fstand4.jpg");
+    background-color: white;
+    position: relative;
+}
+
+.section-choice {
+    min-height: 200px;
+    background-color: #5b5c5e;
+    display: flex;
+}
+
+
+.section-support {
+    min-height: 100px;
+    background-color: #a5a6a9;
+    display: flex;
+}
+
+.section-footer {
+    min-height: 200px;
+    background-color: #969698;
+    display: flex;
+    white-space: inherit;
+}
+
+.background-title {
+    height: 50px;
+    background-color: #a0a1a3;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    width: 40%;
+    min-width: 240px;
+    padding: 25px 0;
+    opacity: 0.8;
+    color: #fff;
+    font-style: oblique;
+}
+
+.navigation1 {
+    width: 33.33%;
+    height: 100px;
+    background-color: #283B1F;
+    padding: 50px 0;
+}
+
+.navigation2 {
+    width: 33.33%;
+    height: 100px;
+    background-color: #B1A26B;
+    padding: 50px 0;
+}
+
+
+.navigation3 {
+    width: 33.32%;
+    height: 100px;
+    background-color: #4E3E0B;
+    padding: 50px 0;
+}
+
+.section-info {
+    min-height: 420px;
+    background-color: #ffffff;
+    padding: 75px 0;
+    position: relative;
+    
+ }
+
+.par{
+    min-height: 50px;
+    text-align: justify;
+}
+
+.section-news {
+    min-height: 460px;
+    background-color: #dccaa4;
+    padding: 75px 0;
+    position: relative;
+}
+
+.owners {
+    float: right;
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    }
+
+.support {
+    width: 60%;
+    height: 100px;
+    background-color: #c9341c;
+    padding: 50px 0;
+}
+
+
+
+.contribute {
+    width: 40%;
+    height: 100px;
+    background-color: #283B1F;
+    padding: 50px 0;
+}
+
+.social {
+    width: 50%;
+    height: 185px;
+    background-color: #4E3E0B;
+    display: inline-block;
+    padding: 50px 0;
+}
+
+.contact {
+    width: 25%;
+    height: 185px;
+    display: inline-block;
+    background-color: #B1A26B;
+    padding: 50px 0;
+}
+
+
+.link {
+    width: 25%;
+    height: 185px;
+    display: inline-block;
+    background-color: #dccaa4;
+    padding: 50px 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+li {
+    float: left;
+    display: block;
+    height: 100px;
+    padding: 32px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+    li:hover {
+        background-color: white;
+        color: #4E3E0B;
+    }
+
+.background-title, .section-info, .section-news, .title-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.background-title, .title-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact {
+    color: #ffffff;
+}
+
+.filter {
+    filter: invert(1);
+}
+
+.title-image {
+    margin-bottom: -20px; /* Align vertically in center */
+    clip-path: circle(40.0% at 49% 50%); /* https://bennettfeely.com/clippy/ */
+}
+
+
+@media only screen and (max-width : 640px) {
+    /* STYLES GO HERE */
+    .title-container, .search-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
+        width: 100%;
+    }
+
+    .section-choice, .section-support, .section-footer {
+        display: inherit;
+    }
+
+    .title-container, .search-container {
+        float: none;
+    }
+
+    .section-menu {
+        position: inherit;
+    }
+
+    li {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+
+
+.field{
+    background: url(https://s2.wp.com/wp-content/themes/pub/twentyeleven/images/search.png) no-repeat 5px 6px;
+    border-radius: 2px;
+    border-color: #283B1F;
+    font-size: 14px;
+    height: 22px;
+    line-height: 1.2em;
+    padding: 4px 10px 4px 28px;
+    background-color: white;
+    display: inline-block;
+    text-align: left;
+    width: 50px;
+}
+
+.sub{
+    display: none;
+    }
+
+input, textarea {
+    color: black;
+    font: 15px Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.625;
+    }
+
+.contrbut {
+    display: inline-block;
+    text-align: right;
+    line-height: 1.625;
+    border-color: #283B1F;
+    background-color: #dccaa4;
+}
+
+
+.direct {
+    display:block;
+    padding: 25px;
+    font-size: 20px;
+    font-style: inherit;
+    color: #4E3E0B;
+    }
+
+
+
+.what {
+    display: block;
+    padding: 50px;
+    font-size: 20px;
+    font-style: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    white-space: normal;
+    width: 80%;
+    line-height: 200%;
+    
+    
+    }
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.do {
+    margin: 0 auto;
+    
+    }
+
+.line{
+    width: 50%; 
+    outline-width: 1px; 
+    background-color: #4E3E0B;
+
+}
+
+@media only screen and (min-width : 800px){
+    .field{
+        width: 70px;
+    }
+
+}
+
+@media only screen and (max-width : 620px){
+    .section-info {
+        min-height: 1150px;
+    }
+
+}
