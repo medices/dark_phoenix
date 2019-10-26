@@ -166,16 +166,30 @@ section {
 }
 
 .section-info {
-    height: 880px;
+    min-height: 420px;
+    background-color: #ffffff;
+    padding: 75px 0;
+    position: relative;
+    
+ }
+
+.par{
+    min-height: 50px;
+    text-align: justify;
+}
+
+.section-news {
+    min-height: 460px;
     background-color: #dccaa4;
     padding: 75px 0;
     position: relative;
-        
 }
 
 .owners {
     float: right;
     padding: 10px;
+    width: 20%;
+    height: 20%;
     }
 
 .support {
