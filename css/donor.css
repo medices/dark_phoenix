@@ -306,7 +306,7 @@ input, textarea {
     display: inline-block;
     line-height: 22px;
     border: 2px solid #283B1F;
-    
+    font-weight: bold;
     background-color: #283B1F;
     color: white;
     padding: 4px 5px;
