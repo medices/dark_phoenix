@@ -54,6 +54,7 @@ table {
 }
 
 /*=======================*/
+
 body {
     box-sizing: border-box;
     text-align: center;
@@ -104,17 +105,34 @@ section {
 .section-pic {
     height: 450px;
     width: 100%;
-    background-image: url("../images/energ3.jpg");
+    background-image: url("../images/donor6.jpg");
     background-color: white;
     position: relative;
 }
 
-.section-choice {
-    min-height: 200px;
-    background-color: #5b5c5e;
-    display: flex;
+
+
+
+.owners {
+    float: right;
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    }
+
+
+
+.par{
+    min-height: 50px;
 }
 
+.section-news {
+    min-height: 880px;
+    background-color: #dccaa4;
+    padding: 75px 0;
+    position: relative;
+    
+}
 
 .section-support {
     min-height: 100px;
@@ -143,54 +161,7 @@ section {
     font-style: oblique;
 }
 
-.navigation1 {
-    width: 33.33%;
-    height: 100px;
-    background-color: #283B1F;
-    padding: 50px 0;
-}
 
-.navigation2 {
-    width: 33.33%;
-    height: 100px;
-    background-color: #B1A26B;
-    padding: 50px 0;
-}
-
-
-.navigation3 {
-    width: 33.32%;
-    height: 100px;
-    background-color: #4E3E0B;
-    padding: 50px 0;
-}
-
-.section-info {
-    min-height: 420px;
-    background-color: #ffffff;
-    padding: 75px 0;
-    position: relative;
-    
- }
-
-.par{
-    min-height: 50px;
-    text-align: justify;
-}
-
-.section-news {
-    min-height: 460px;
-    background-color: #dccaa4;
-    padding: 75px 0;
-    position: relative;
-}
-
-.owners {
-    float: right;
-    padding: 10px;
-    width: 20%;
-    height: 20%;
-    }
 
 .support {
     width: 60%;
@@ -198,8 +169,6 @@ section {
     background-color: #c9341c;
     padding: 50px 0;
 }
-
-
 
 .contribute {
     width: 40%;
@@ -255,6 +224,14 @@ li {
         color: #4E3E0B;
     }
 
+a hover {
+    background-color: white;
+        color: #dccaa4;;
+
+}
+
+
+
 .background-title, .section-info, .section-news, .title-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
     font-size: x-large;
     font-weight: bolder;
@@ -274,12 +251,13 @@ li {
 }
 
 
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 950px) {
     /* STYLES GO HERE */
     .title-container, .search-container, .navigation1, .navigation2, .navigation3, .support, .contribute, .social, .contact, .link {
         width: 100%;
     }
 
+    
     .section-choice, .section-support, .section-footer {
         display: inherit;
     }
@@ -340,11 +318,9 @@ input, textarea {
     font-size: 20px;
     font-style: inherit;
     color: #4E3E0B;
-    }
+    } 
 
-
-
-.what {
+.what{
     display: block;
     padding: 50px;
     font-size: 20px;
@@ -354,12 +330,10 @@ input, textarea {
     left: 50%;
     transform: translate(-50%,-50%);
     white-space: normal;
-    width: 80%;
+    width:80%;
     line-height: 200%;
-    
-    
+    text-align: justify;
     }
-
 
 a {
     text-decoration: none;
@@ -368,9 +342,8 @@ a {
 
 .do {
     margin: 0 auto;
-    
+    text-align: center;
     }
-
 .line{
     width: 50%; 
     outline-width: 1px; 
@@ -378,17 +351,29 @@ a {
 
 }
 
-@media only screen and (min-width : 800px){
-    .field{
+.public {
+    padding: 10px;
+}
+
+
+@media only screen and (min-width : 800px) {
+    .field {
         width: 70px;
     }
-
 }
 
-@media only screen and (max-width : 620px){
+@media only screen and (min-width : 610px){
     .section-info {
-        min-height: 1150px;
+        min-height: 550px;
     }
 
 }
+
+@media only screen and (min-width : 610px){
+    .section-news {
+        min-height: 600px;
+    }
+
+}
+
 
