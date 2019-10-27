@@ -1,0 +1,29 @@
+﻿.hover-menu-item a~section {
+    display: none;
+    /*Hiding when no-hover */
+}
+
+.hover-menu-item {
+    position: relative;
+}
+
+.hover-menu-item a~section div {
+    padding: 32px;
+    border: 2px solid #fff;
+    /* To avoid jumping on hover */
+}
+
+.hover-menu-item a~section div:hover {
+    border: 2px solid #4E3E0B;
+}
+
+.hover-menu-item:hover a~section {
+    display: block;
+    position: absolute;
+    top: 80px;
+    /*32px padding * 2 + 16px font */
+    z-index: 1;
+    left: 0;
+    background-color: #fff;
+    color: #4E3E0B;
+}
